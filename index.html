@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANYWAY AI</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- ===== INTRO SCREEN ===== -->
+<div id="intro">
+  <h1 class="intro-title">ANYWAY AI</h1>
+  <p class="intro-sub">~ BY DIVYANSH</p>
+</div>
+
+<div class="app">
+
+
+
+  <!-- Chat -->
+  <main class="chat">
+
+    <header>
+      <button onclick="toggleSidebar()">☰</button>
+      <h3 id="title">ANYWAY AI</h3>
+      <button onclick="clearChat()">🗑</button>
+    </header>
+
+    <div id="messages"></div>
+
+    <div class="input">
+      <textarea id="input" placeholder="Ask anything..."></textarea>
+      <button onclick="send()">➤</button>
+    </div>
+
+  </main>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
