@@ -7,7 +7,7 @@
 
 ## ✨ Features
 
-- 💬 ChatGPT-style UI
+- 💬 Advance style UI
 - ⚡ Fast & lightweight (no frameworks)
 - 🧠 Smart offline AI (no API required)
 - 🔁 Remembers conversation (basic memory)
